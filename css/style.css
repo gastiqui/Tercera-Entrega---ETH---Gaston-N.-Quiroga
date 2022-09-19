@@ -1,0 +1,23 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+#header {
+    height: 10vh;
+}
+
+#main {
+    height: 90vh;
+
+}
+
+#footer {
+    height: 10vh;
+
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
