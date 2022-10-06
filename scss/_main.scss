@@ -1,0 +1,106 @@
+// etiquetas generales //
+
+p {
+    color: map-get($color, "negro");
+}
+
+h1 {
+    @include titulos;
+    text-align: center;
+    font-size: 35px;
+}
+
+h2 {
+    @include titulos;
+    font-size: 20px;
+
+    img {
+        padding-right: 20px;
+    }
+}
+
+h3 {
+    @include titulos;
+}
+
+h4 {
+    @include titulos;
+}
+
+// main index //
+
+.main-index {
+    @include main;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    
+    .titulo-index {
+        @include titulos;
+        text-align: center;
+    }
+}
+
+.btn {
+    text-decoration: underline overline #000000;
+    
+}
+
+
+// main clase //
+.main-clases {
+    @include main;
+
+    .inicio-clases {
+
+        .ul-clases {
+            li {
+                padding: .5rem 1rem;
+                color: map-get($color, "negro");
+
+                img {
+                    padding: 5px;
+                }
+
+                a {
+                    margin: 0 !important;
+                    padding: 0 !important;
+                    @include enlazes;
+                }
+            }
+        }
+    }
+
+    section {
+        article {
+            .listas-clases {
+                display: block;
+                color: map-get($color, "negro");
+                text-decoration: none;
+
+                img {
+                    padding: 5px 5px;
+                }
+            }
+
+            .lista-objetos {
+                color: map-get($color, "negro");
+            }
+
+            .imagen-clases {
+                float: left;
+            }
+        }
+    }
+}
+
+// main contacto //
+.main-contacto {
+    @include main;
+
+    form {
+        textarea {
+            @include textarea
+        }
+    }
+}

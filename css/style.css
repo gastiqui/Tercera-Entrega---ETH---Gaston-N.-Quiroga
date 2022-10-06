@@ -1,1 +1,171 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: darkgray;
+}
+
+@font-face {
+  font-family: exorcet;
+  src: url(../css/fonts/films.EXH_____.ttf);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+header .logo-header {
+  height: 125px;
+  width: 110px;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+header .logo-header img {
+  max-width: 100%;
+  max-height: 100%;
+}
+header .titulo-header {
+  font-size: 50px;
+  font-family: exorcet;
+}
+header .navbar-light .navbar-toggler-icon {
+  background-color: darkgray;
+}
+header .navbar-nav li {
+  margin: 10px 35px 10px 35px;
+  font-family: exorcet;
+}
+header .navbar-nav li a {
+  color: rgb(0, 0, 0);
+  transition: all 50ms ease;
+  border-bottom: 5px solid transparent;
+}
+header .navbar-nav li a:hover {
+  color: darkblue;
+  border-bottom: 7.5px solid;
+}
+
+p {
+  color: black;
+}
+
+h1 {
+  color: black;
+  font-family: exorcet;
+  text-align: center;
+  font-size: 35px;
+}
+
+h2 {
+  color: black;
+  font-family: exorcet;
+  font-size: 20px;
+}
+h2 img {
+  padding-right: 20px;
+}
+
+h3 {
+  color: black;
+  font-family: exorcet;
+}
+
+h4 {
+  color: black;
+  font-family: exorcet;
+}
+
+.main-index {
+  border: 75px solid transparent;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  background-color: darkgray;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+.main-index .titulo-index {
+  color: black;
+  font-family: exorcet;
+  text-align: center;
+}
+
+.btn {
+  -webkit-text-decoration: underline overline #000000;
+          text-decoration: underline overline #000000;
+}
+
+.main-clases {
+  border: 75px solid transparent;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  background-color: darkgray;
+}
+.main-clases .inicio-clases .ul-clases li {
+  padding: 0.5rem 1rem;
+  color: black;
+}
+.main-clases .inicio-clases .ul-clases li img {
+  padding: 5px;
+}
+.main-clases .inicio-clases .ul-clases li a {
+  margin: 0 !important;
+  padding: 0 !important;
+  color: darkblue;
+  font-family: exorcet;
+  text-decoration: none;
+}
+.main-clases section article .listas-clases {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+.main-clases section article .listas-clases img {
+  padding: 5px 5px;
+}
+.main-clases section article .lista-objetos {
+  color: black;
+}
+.main-clases section article .imagen-clases {
+  float: left;
+}
+
+.main-contacto {
+  border: 75px solid transparent;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  background-color: darkgray;
+}
+.main-contacto form textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+footer {
+  border: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+footer .footer {
+  border: 75px solid transparent;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  background-color: darkgray;
+}
+footer h3 {
+  color: black;
+  font-family: exorcet;
+}/*# sourceMappingURL=style.css.map */

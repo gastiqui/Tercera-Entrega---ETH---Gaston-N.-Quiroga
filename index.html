@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="ETH, Crypto, Decentralized">
+    <meta name="author" content="Gastón N. Quiroga">
+    <meta name="description" content="Información relacionada a Ethereum">
     <link rel="icon" type="image/x-icon" href="./assets/img/logo.webp">
     <link href=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Bootstrap - Ethereum</title>
+    <title>Inicio - Ethereum</title>
 
 </head>
 
@@ -19,57 +22,52 @@
 
     <div class="container-fluid animate__animated animate__backInDown">
         <header class="row">
-            <div class=" col-12 mx-auto d-block logo-header">
-                <img class="mx-auto d-block" src="./assets/img/logo.webp" alt="Logo de la pagina">
-            </div>
-
-            <!--titulo web-->
-            <div class="col-12">
-                <p class="text-center text-white titulo-header">
-                    Ethereum - Proyecto
-                </p>
+            <div class=" col-12 mx-auto logo-header">
+                <a href="./index.html">
+                    <img src="./assets/img/logo.webp">
+                </a>
             </div>
             <!--barra de navegacion y menu hamburguesa-->
-            <div>
-                <nav class="navbar navbar-expand-md">
-                    <div class="col-12">
-                        <button type="button" class="navbar-toggler navbar-light col-12" data-bs-toggle="collapse"
-                            data-bs-target="#MenuNavegacion">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div id="MenuNavegacion" class="collapse navbar-collapse">
-                            <ul class="navbar-nav mx-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link color-dark" href="./index.html">
-                                        Inicio
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./pages/info.html">
-                                        Información
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./pages/whitepaper.html">
-                                        White Paper
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./pages/galeria.html">
-                                        Galería
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./pages/contacto.html">
-                                        Contacto
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+            <div class="col-12">
+                <nav class="navbar navbar-expand-md navbar-dark ">
+                    <button type="button" class="navbar-toggler navbar-light col-12" data-bs-toggle="collapse"
+                        data-bs-target="#MenuNavegacion">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="MenuNavegacion" class="collapse navbar-collapse">
+                        <ul class="navbar-nav mx-auto">
+                            <li class=" nav-item active">
+                                <a class="nav-link color-dark" href="./index.html">
+                                    INICIO
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/info.html">
+                                    INFORMACIÓN
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/whitepaper.html">
+                                    WHITE PAPER
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/galeria.html">
+                                    GALERÍA
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/contacto.html">
+                                    CONTACTO
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </nav>
             </div>
         </header>
+        <hr>
+
 
         <!-- FIN HEADER -->
 
@@ -80,28 +78,33 @@
                 <section class="row">
                     <div class="col-12">
                         <h1 class="titulo-index text-center">
-                            Hello World - ETHEREUM
+                            ¡ Hello World ! - ETHEREUM
                         </h1>
                     </div>
-                    <hr>
+                </section>
+                <hr>
+                <section>
                     <div class="col-12">
-                        <p>
+                        <h2 class="text-center">
                             Mi website de Ethereum para practicar coding ¡ Bienvenid@ !
-                        </p>
+                        </h2>
                     </div>
                 </section>
             </main>
         </div>
 
-        <!-- FIN BODY 
+        <!-- FIN MAIN -->
 
-        
-        INICIO FOOTER -->
+        <!-- INICIO FOOTER -->
 
-        <footer class="container-fluid fixed-bottom navbar-dark bg-dark">
-            <div class="row text-center bg-gradient">
-                <a href="./index.html">
-                    <img src="./assets/img/logo.webp">
+        <footer class="container">
+            <div class="footer fixed-bottom bg-dark bg-gradient">
+                <h3 class="titulo-footer text-center">
+                    ¿Te ayudamos con algo?
+                </h3>
+                <hr>
+                <a class="nav-link text-center text-indigo-800" href="./pages/contacto.html">
+                    CONTACTO
                 </a>
             </div>
         </footer>
@@ -112,6 +115,11 @@
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
         </script>
 
+    </div>
+
 </body>
+
+<!-- FIN BODY  -->
+
 
 </html>
